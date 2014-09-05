@@ -1,0 +1,53 @@
+html { font-size: 62.5%; } 
+body {
+	background-image: url('/images/skulls.png');
+	background-position: top left;
+	background-repeat: repeat;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, ol table {
+	color: #444;
+	font-family: 'Oxygen', Arial, sans-serif;
+}
+h1 {
+	font-size: 2.8rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+p, a, ul, ol, table {
+	font-size: 1rem;
+}
+
+.jumbo {
+	background-color: #FAFAFA;
+	border: 15px solid #CACACA;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	font-size: 20rem;
+	font-weight: 700;
+}
+
+.panel {
+	background-color: #FAFAFA;
+	border: 15px solid #CACACA;
+	border-radius: 0;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+	padding: 20px;
+}
