@@ -1,0 +1,26 @@
+{
+  "name": "taran-pierce-com",
+  "version": "0.0.1",
+  "description": "Taran Pierce's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taran-pierce/taran-pierce-com.git"
+  },
+  "keywords": [
+    "William",
+    "Taran",
+    "Pierce",
+    "personal",
+    "portfolio"
+  ],
+  "author": "Taran Pierce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taran-pierce/taran-pierce-com/issues"
+  },
+  "homepage": "https://github.com/taran-pierce/taran-pierce-com#readme"
+}
