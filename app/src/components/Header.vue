@@ -38,6 +38,7 @@
   header {
     background-color: var(--color-primary-dark);
     color: var(--color-white);
+    overflow: hidden;
   }
 
   .logo {
@@ -133,7 +134,9 @@
     data() {
       return {
         isOpen: false,
-        isDesktop: () => window && window.innerWidth,
+        isDesktop: () => {
+          return window && window.innerWidth;
+        },
       }
     },
     methods: {
