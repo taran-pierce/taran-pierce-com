@@ -3,7 +3,6 @@ import {
   it,
   expect,
 } from "vitest";
-
 import { mount } from '@vue/test-utils';
 
 import Container from '../Container.vue';
