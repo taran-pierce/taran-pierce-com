@@ -1,15 +1,41 @@
+<script setup lang="ts">
+  import Container from '../components/Container.vue';
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section>
+    <Container>
+      <h1>About me</h1>
+      <p>I earned my bachelor's in communication design from Texas State University and have been a software engineer for the past twelve years.</p>
+      <p>My passion for art and design makes me an outstanding frontend engineer with my attention to detail and enjoyment for making intutive UIs.</p>
+    </Container>
+  </section>
+  <section>
+    <Container>
+      <h2>About the site</h2>
+      <p>Probably more interesting than me would be the things about the site. What its made with and how things work.</p>
+      <p>This will be updated as things are changed:</p>
+      <ul>
+        <li>
+          <h4>
+            <a href="https://vuejs.org/">Vue.js</a>
+          </h4>
+          <p>Using Vue to create the frontend. I generally use Next.js, so I wanted to see how making a site in Vue would be.</p>
+        </li>
+        <li>
+          <h4>
+            <a href="https://github.com/">GitHub</a>
+          </h4>
+          <p>Repository in GitHub of course but also using their action workflow with Azure for building and deploying.</p>
+        </li>
+        <li>
+          <h4>
+            <a href="https://azure.microsoft.com/">Azure</a>
+          </h4>
+          <p>Building, deploying and hosting the site on Azure. Straight forward process for setting up static web apps.</p>
+        </li>
+      </ul>
+    </Container>
+  </section>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

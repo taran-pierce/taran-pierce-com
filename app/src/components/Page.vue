@@ -1,11 +1,8 @@
-<template>
-  <header>
-    <h1>TaranPierce.com</h1>
-  </header>
-</template>
+<script setup lang="ts">
+  import Header from './Header.vue';
+</script>
 
-<style>
-  h1 {
-    font-weight: bold;
-  }
-</style>
+<template>
+  <Header />
+  <p>Page.vue</p>
+</template>
