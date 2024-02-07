@@ -134,7 +134,9 @@
     data() {
       return {
         isOpen: false,
-        isDesktop: () => window && window.innerWidth,
+        isDesktop: () => {
+          return window && window.innerWidth;
+        },
       }
     },
     methods: {
