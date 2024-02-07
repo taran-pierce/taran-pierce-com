@@ -38,6 +38,7 @@
   header {
     background-color: var(--color-primary-dark);
     color: var(--color-white);
+    overflow: hidden;
   }
 
   .logo {

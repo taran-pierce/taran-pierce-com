@@ -3,7 +3,6 @@
     RouterLink,
     RouterView,
   } from 'vue-router'
-  // import Page from './components/Page.vue';
   import Page from './layouts/Page.vue';
 </script>
 
