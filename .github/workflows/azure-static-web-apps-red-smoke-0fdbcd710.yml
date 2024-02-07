@@ -19,7 +19,7 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - run: cd app && npm run unit:test
+      - run: npm run unit:test
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
