@@ -64,28 +64,28 @@ import { ref } from 'vue'
         <p>Here are some links to other places online where you can see my work or learn stuff about what I do.</p>
         <ul>
           <li>
-            <h4>GitHub</h4>
+            <h3>GitHub</h3>
             <p>Of course there has to be a link to the trusty GitHub account.</p>
             <p>
               <a href="https://github.com/taran-pierce" target="_blank">Taran's GitHub</a>
             </p>
           </li>
           <li>
-            <h4>LinkedIn</h4>
+            <h3>LinkedIn</h3>
             <p>FaceBook for work, how lovely.</p>
             <p>
               <a href="https://www.linkedin.com/in/taran-pierce-4b6b5721/" target="_blank">LinkedIn</a>
             </p>
           </li>
           <li>
-            <h4>Caddo Lake Bayou Tours</h4>
+            <h3>Caddo Lake Bayou Tours</h3>
             <p>Site that I created and manage for a guided boat tour service on Caddo Lake.</p>
             <p>
               <a href="https://www.caddolakebayoutours.com/" target="_blank">Caddo Lake Bayou Tours</a>
             </p>
           </li>
           <li>
-            <h4>taranitup.com</h4>
+            <h3>taranitup.com</h3>
             <p>Another random personal site where I test out different things.</p>
             <p>
               <a href="https://www.taranitup.com/" target="_blank">TaranItUp.com</a>
