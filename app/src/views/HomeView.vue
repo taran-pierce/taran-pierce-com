@@ -60,7 +60,7 @@ import { ref } from 'vue'
         <p>Building out this website in Vue and using Azure to deploy it.</p>
         <p>Software engineer with a strong foundation in design, excellent communication skills and ability to translate business objectives into high performing solutions.</p>
         <p>Adding in some more content to have some filler sections for now while I build things out.</p>
-        <h3>Online Presence</h3>
+        <h2>Online Presence</h2>
         <p>Here are some links to other places online where you can see my work or learn stuff about what I do.</p>
         <ul>
           <li>
@@ -96,7 +96,7 @@ import { ref } from 'vue'
     </section>
     <section>
       <ContentContainer>
-        <h2>Things I like to use</h2>
+        <h1>Things I like to use</h1>
         <p>Just going to list out some of the things I like to use when making sites and why.</p>
         <CardsComponent :cardItems="(cardItems as [])" />
       </ContentContainer>
