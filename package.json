@@ -15,6 +15,9 @@
     "personal",
     "portfolio"
   ],
+  "scripts": {
+    "unitTests": "cd app && npm run test:unit"
+  },
   "author": "Taran Pierce",
   "license": "ISC",
   "bugs": {
