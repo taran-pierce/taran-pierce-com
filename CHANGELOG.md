@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - CardsComponent to display sets of card data
   - still needs better styling
+- Unit tests for card components
 
 ## [1.0.1] - 2024-02-08
 ### Added
