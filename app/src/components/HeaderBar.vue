@@ -28,17 +28,19 @@
 
 <template>
   <header>
-    <div class="nav-toggle-wrapper">
-      <LogoBlock @closeMenu="closeMenu" />
-      <button
-        type="button"
-        @click="toggleMenu"
-        class="menu-toggle"
-      >Menu</button>
+    <div class="header-container">
+      <div class="nav-toggle-wrapper">
+        <LogoBlock @closeMenu="closeMenu" />
+        <button
+          type="button"
+          @click="toggleMenu"
+          class="menu-toggle"
+        >Menu</button>
+      </div>
+      <!-- @blah="method" - allows you to pass events up from children -->
+      <!-- like setting the menu to open/close -->
+      <NavigationMain :isOpen="isOpen" @closeMenu="closeMenu" />
     </div>
-    <!-- @blah="method" - allows you to pass events up from children -->
-    <!-- like setting the menu to open/close -->
-    <NavigationMain :isOpen="isOpen" @closeMenu="closeMenu" />
   </header>
 </template>
 
@@ -57,8 +59,14 @@
 
   @media(min-width: 992px) {
     header {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
+      display: block;
+
+      .header-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: 960px;
+        margin: 0 auto;
+      }
     }
 
     .menu-toggle {
@@ -67,6 +75,7 @@
 
     .nav-toggle-wrapper {
       display: block;
+      padding-left: 0;
     }
   }
 </style>

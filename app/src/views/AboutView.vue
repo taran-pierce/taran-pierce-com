@@ -33,6 +33,13 @@
             <a href="https://azure.microsoft.com/">Azure</a>
           </h4>
           <p>Building, deploying and hosting the site on Azure. Straight forward process for setting up static web apps.</p>
+          <p>I have been really impressed with using Azure so far. Seems a bit easier than using AWS and the preview environments for branches and pull requests rock!</p>
+        </li>
+        <li>
+          <h4>
+            <a href="https://vitest.dev/">Vitest</a>
+          </h4>
+          <p>Unit tests are created with Vitest and it seems pretty similar to Jest.</p>
         </li>
       </ul>
     </ContentContainer>

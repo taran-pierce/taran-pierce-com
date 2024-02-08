@@ -41,6 +41,11 @@
       list-style-type: none;
       padding-left: 0;
 
+      li {
+        padding: 0;
+        text-align: center;
+      }
+
       a {
         display: block;
         color: var(--color-white);
@@ -57,6 +62,11 @@
           color: var(--color-text);
         }
       }
+    }
+
+    .router-link-active {
+      background-color: var(--color-primary-light);
+      color: var(--color-text);
     }
   }
 

@@ -26,7 +26,14 @@
     a {
       font-weight: bold;
       text-decoration: none;
+      line-height: 1.8;
       color: var(--color-white);
+    }
+  }
+
+  @media(min-width: 992px) {
+    .logo {
+      line-height: .9;
     }
   }
 </style>
