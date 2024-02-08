@@ -5,16 +5,16 @@ import {
 } from "vitest";
 import { mount } from '@vue/test-utils';
 
-import Page from '../../layouts/Page.vue';
+import PageLayout from '../../layouts/PageLayout.vue';
 
 const RouterLinkStub = {
   name: 'RouterLink',
   template: '<a><slot></slot></a>',
 }
 
-describe('Page', () => {
-  it.skip('should container a <header>', () => {
-    const wrapper = mount(Page, {
+describe('PageLayout', () => {
+  it('should container a <header>', () => {
+    const wrapper = mount(PageLayout, {
       global: {
         stubs: {
           RouterLink: RouterLinkStub,

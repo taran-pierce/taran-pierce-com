@@ -1,17 +1,17 @@
 <script setup lang="ts">
-  import Container from '../components/Container.vue';
+  import ContentContainer from '../components/ContentContainer.vue';
 </script>
 
 <template>
   <section>
-    <Container>
+    <ContentContainer>
       <h1>About me</h1>
       <p>I earned my bachelor's in communication design from Texas State University and have been a software engineer for the past twelve years.</p>
       <p>My passion for art and design makes me an outstanding frontend engineer with my attention to detail and enjoyment for making intutive UIs.</p>
-    </Container>
+    </ContentContainer>
   </section>
   <section>
-    <Container>
+    <ContentContainer>
       <h2>About the site</h2>
       <p>Probably more interesting than me would be the things about the site. What its made with and how things work.</p>
       <p>This will be updated as things are changed:</p>
@@ -35,7 +35,7 @@
           <p>Building, deploying and hosting the site on Azure. Straight forward process for setting up static web apps.</p>
         </li>
       </ul>
-    </Container>
+    </ContentContainer>
   </section>
 </template>
 

@@ -5,7 +5,7 @@ import {
 } from "vitest";
 import { mount } from '@vue/test-utils';
 
-import Header from '../Header.vue';
+import HeaderBar from '../HeaderBar.vue';
 
 const RouterLinkStub = {
   name: 'RouterLink',
@@ -14,7 +14,7 @@ const RouterLinkStub = {
 
 describe('Header', () => {
   it('should contain children', () => {
-    const wrapper = mount(Header, {
+    const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
           RouterLink: RouterLinkStub,
@@ -32,7 +32,7 @@ describe('Header', () => {
   });
 
   it('should container a <header>', () => {
-    const wrapper = mount(Header, {
+    const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
           RouterLink: RouterLinkStub,
@@ -46,7 +46,7 @@ describe('Header', () => {
   });
 
   it('should have a logo', () => {
-    const wrapper = mount(Header, {
+    const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
           RouterLink: RouterLinkStub,
@@ -60,7 +60,7 @@ describe('Header', () => {
   });
 
   it('should have a <nav>', () => {
-    const wrapper = mount(Header, {
+    const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
           RouterLink: RouterLinkStub,
@@ -74,7 +74,7 @@ describe('Header', () => {
   });
 
   it('should have two links in the <nav>', () => {
-    const wrapper = mount(Header, {
+    const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
           RouterLink: RouterLinkStub,
