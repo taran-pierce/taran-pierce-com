@@ -3,11 +3,11 @@
     RouterLink,
     RouterView,
   } from 'vue-router'
-  import Page from './layouts/Page.vue';
+  import PageLayout from './layouts/PageLayout.vue';
 </script>
 
 <template>
-  <Page />
+  <PageLayout />
   <RouterView />
 </template>
 

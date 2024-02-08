@@ -5,7 +5,7 @@ import {
 } from "vitest";
 import { mount } from '@vue/test-utils';
 
-import Container from '../Container.vue';
+import ContentContainer from '../ContentContainer.vue';
 
 const testComponent = {
   name: 'testComponent',
@@ -14,7 +14,7 @@ const testComponent = {
 
 describe('Container', () => {
   it('does not break with no children', () => {
-    const wrapper = mount(Container);
+    const wrapper = mount(ContentContainer);
 
     const element = wrapper.find('.container');
     const children = element.findAll('*');
@@ -23,7 +23,7 @@ describe('Container', () => {
   });
 
   it('renders properly with children', () => {
-    const wrapper = mount(Container, {
+    const wrapper = mount(ContentContainer, {
       slots: {
         default: [testComponent],
       }

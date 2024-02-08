@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.0] - 2024-02-08
+### Added
+- Live on production
+- Renamed component files to be two words
+- Split header into more components to make files smaller
+- Added unit tests for those files
+
 ## [0.0.6] - 2024-02-07
 ### Added
 - Added basic Vitest unit tests
