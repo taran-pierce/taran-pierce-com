@@ -69,3 +69,7 @@ ul {
     padding: .5rem 0;
   }
 }
+
+strong {
+  font-weight: bold;
+}

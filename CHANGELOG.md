@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Content updates
 - Minor style updates
 
+### Added
+- CardsComponent to display sets of card data
+  - still needs better styling
+
 ## [1.0.1] - 2024-02-08
 ### Added
 - Added google analytics
