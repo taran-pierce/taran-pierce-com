@@ -43,7 +43,7 @@ describe('CardsComponent', () => {
       }
     });
 
-    const headingText = wrapper.find('h4');
+    const headingText = wrapper.find('h2');
 
     expect(headingText.text()).toBe('Contentful');
   });
