@@ -5,7 +5,7 @@
   --color-primary-dark: #001861;
   --color-primary-light: #bfcfff;
   --color-secondary: #809FFF;
-  --color-white: #eaeafa;
+  --color-white: #cfcfea;
 }
 
 *,
@@ -19,7 +19,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+  background: var(--color-white);
   transition:
     color 0.5s,
     background-color 0.5s;
@@ -43,10 +43,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a, p {
+  font-size: 18px;
+}
+
 a {
   color: var(--color-primary-dark);
+  padding: .5rem 0;
 
   &:hover {
     color: var(--color-primary-light);
   }
+}
+
+h1, h2,
+h3, h4 {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    padding: .5rem 0;
+  }
+}
+
+strong {
+  font-weight: bold;
 }
