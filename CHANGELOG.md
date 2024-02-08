@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.1] - 2024-02-08
+### Added
+- Added google analytics
+
+### Deleted
+- Deleted package.json info at root of repo, real one is in /app/
+
 ## [1.0.0] - 2024-02-08
 ### Added
 - Live on production
