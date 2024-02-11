@@ -8,7 +8,8 @@
       <ContentContainer>
         <h1>About me</h1>
         <p>I earned my bachelor's in communication design from Texas State University and have been a software engineer for the past twelve years.</p>
-        <p>My passion for art and design makes me an outstanding frontend engineer with my attention to detail and enjoyment for making intutive UIs.</p>
+        <p>My passion for art and design makes me an outstanding frontend engineer with my attention to detail and enjoyment for making intuitive UIs.</p>
+        <p>Music is another passion of mine. I can play the guitar, piano, banjo and the drums. I also have a violin and a harmonica but I'm not sure I would say that I can "play" those as much as I just have them.</p>
       </ContentContainer>
     </section>
     <section>

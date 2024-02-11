@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Updated
 - Fix heading issues
 
+### Added
+- Page transitions
+
 ## [1.0.3] - 2024-02-08
 ### Updated
 - Update styles for card component
