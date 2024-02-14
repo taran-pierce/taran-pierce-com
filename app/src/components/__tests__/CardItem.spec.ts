@@ -22,7 +22,7 @@ describe('CardItem', () => {
     expect(element.exists()).toBe(true);
   });
 
-  it('should have correct <h4>', () => {
+  it('should have correct <h2>', () => {
     const wrapper = mount(CardItem, {
       props: {
         cardItem: {
@@ -31,7 +31,7 @@ describe('CardItem', () => {
       }
     });
 
-    const headingText = wrapper.find('h4');
+    const headingText = wrapper.find('h2');
 
     expect(headingText.text()).toBe('Test Heading');
   });

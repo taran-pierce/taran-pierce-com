@@ -26,6 +26,12 @@
           @click="closeMenu"
         >About</router-link>
       </li>
+      <li>
+        <router-link
+          to="/projects/"
+          @click="closeMenu"
+        >Projects</router-link>
+      </li>
     </ul>
   </nav>
 </template>
@@ -89,7 +95,7 @@
 
       ul {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
 
         a {
           line-height: 2;

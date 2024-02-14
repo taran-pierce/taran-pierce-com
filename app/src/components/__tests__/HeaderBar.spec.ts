@@ -73,7 +73,7 @@ describe('Header', () => {
     expect(element.exists()).toBe(true);
   });
 
-  it('should have two links in the <nav>', () => {
+  it('should have three links in the <nav>', () => {
     const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
@@ -86,6 +86,6 @@ describe('Header', () => {
 
     const children = element.findAll('a');
     
-    expect(children.length).toBe(2);
+    expect(children.length).toBe(3);
   });
 });

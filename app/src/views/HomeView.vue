@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+  import { ref } from 'vue'
   import ContentContainer from '../components/ContentContainer.vue';
   import CardsComponent from '../components/CardsComponent.vue';
 
@@ -60,32 +60,32 @@ import { ref } from 'vue'
         <p>Building out this website in Vue and using Azure to deploy it.</p>
         <p>Software engineer with a strong foundation in design, excellent communication skills and ability to translate business objectives into high performing solutions.</p>
         <p>Adding in some more content to have some filler sections for now while I build things out.</p>
-        <h3>Online Presence</h3>
+        <h2>Online Presence</h2>
         <p>Here are some links to other places online where you can see my work or learn stuff about what I do.</p>
         <ul>
           <li>
-            <h4>GitHub</h4>
+            <h3>GitHub</h3>
             <p>Of course there has to be a link to the trusty GitHub account.</p>
             <p>
               <a href="https://github.com/taran-pierce" target="_blank">Taran's GitHub</a>
             </p>
           </li>
           <li>
-            <h4>LinkedIn</h4>
+            <h3>LinkedIn</h3>
             <p>FaceBook for work, how lovely.</p>
             <p>
               <a href="https://www.linkedin.com/in/taran-pierce-4b6b5721/" target="_blank">LinkedIn</a>
             </p>
           </li>
           <li>
-            <h4>Caddo Lake Bayou Tours</h4>
+            <h3>Caddo Lake Bayou Tours</h3>
             <p>Site that I created and manage for a guided boat tour service on Caddo Lake.</p>
             <p>
               <a href="https://www.caddolakebayoutours.com/" target="_blank">Caddo Lake Bayou Tours</a>
             </p>
           </li>
           <li>
-            <h4>taranitup.com</h4>
+            <h3>taranitup.com</h3>
             <p>Another random personal site where I test out different things.</p>
             <p>
               <a href="https://www.taranitup.com/" target="_blank">TaranItUp.com</a>
@@ -96,7 +96,7 @@ import { ref } from 'vue'
     </section>
     <section>
       <ContentContainer>
-        <h2>Things I like to use</h2>
+        <h1>Things I like to use</h1>
         <p>Just going to list out some of the things I like to use when making sites and why.</p>
         <CardsComponent :cardItems="(cardItems as [])" />
       </ContentContainer>

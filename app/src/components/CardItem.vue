@@ -8,7 +8,7 @@
 
 <template>
   <div class="item">
-    <h4>{{ cardItem?.name }}</h4>
+    <h2>{{ cardItem?.name }}</h2>
     <p v-for="content in cardItem?.contents" :key="content">{{ content }}</p>
     <ul v-if="cardItem?.featureList">
       <li v-for="feature in cardItem.featureList" :key="feature.heading">

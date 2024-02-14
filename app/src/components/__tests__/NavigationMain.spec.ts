@@ -18,6 +18,9 @@ const mainLinks = [
   },
   {
     name: 'About',
+  },
+  {
+    name: 'Projects',
   }
 ];
 
@@ -51,8 +54,8 @@ describe('NavigationMain', () => {
 
     const elements = wrapper.findAll('a');
 
-    // only have two links for now
-    expect(elements.length).toBe(2);
+    // only have three links for now
+    expect(elements.length).toBe(3);
   });
 
   it('should have correct name and href in links', () => {
