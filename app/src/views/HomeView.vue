@@ -91,6 +91,13 @@
               <a href="https://www.taranitup.com/" target="_blank">TaranItUp.com</a>
             </p>
           </li>
+          <li>
+            <h3>Photos</h3>
+            <p>Project that is in the works using Astro.build so that I can use React and Vue in the same proejct. Why? Cause why not? It calls them "islands" and you can basically end up nesting other frameworks inside of your Astro components. So if you feel like certain frameworks have an edge over others for specific use cases, you can use which ever one you want at will.</p>
+            <p>
+              <a href="https://photos.taranpierce.com/">Photos</a>
+            </p>
+          </li>
         </ul>
       </ContentContainer>
     </section>
