@@ -56,23 +56,25 @@
   <main>
     <section>
       <ContentContainer>
-        <h1>Welcome to taranpierce.com</h1>
-        <p>Building out this website in Vue and using Azure to deploy it.</p>
-        <p>Software engineer with a strong foundation in design, excellent communication skills and ability to translate business objectives into high performing solutions.</p>
-        <p>Adding in some more content to have some filler sections for now while I build things out.</p>
+        <h1>Taran Pierce's personal website!</h1>
+        <h2>Take a look around and thanks for visiting taranpierce.com</h2>
+        <p>I'm a software engineer with over 10 years of working experience with a strong foundation in design, excellent communication skills and ability to translate business objectives into high performing solutions.</p>
+        <p>I'll be building this particular website out using Vue because I wanted to get more experience seeing what it is like using Vue compared to React.</p>
         <h2>Online Presence</h2>
-        <p>Here are some links to other places online where you can see my work or learn stuff about what I do.</p>
+        <p>Here are some links to other places online where you can see my work or learn stuff about what I do or what I have done in the past.</p>
         <ul>
           <li>
             <h3>GitHub</h3>
-            <p>Of course there has to be a link to the trusty GitHub account.</p>
+            <p>Of course there has to be a link to the trusty GitHub account. If you want to look at the source code for this website then you can find it there along with all my other projects.</p>
+            <p>Some of them will be live and already hosted places, so you can just use the URL listed in the about section for that project to actually view it in action. Some of them though you will have to pull down and run locally if you want to see it work.</p>
             <p>
-              <a href="https://github.com/taran-pierce" target="_blank">Taran's GitHub</a>
+              <a href="https://github.com/taran-pierce" target="_blank">Taran Pierce's GitHub</a>
             </p>
           </li>
           <li>
             <h3>LinkedIn</h3>
-            <p>FaceBook for work, how lovely.</p>
+            <p>If you are interested in finding out anything about my previous work history, feel free to take a look at my LinkedIn profile.</p>
+            <p>FaceBook for work, how lovely, but if you did want to connect and talk about potential business opportunities for either you or me, feel free to hit me up there and we can connect.</p>
             <p>
               <a href="https://www.linkedin.com/in/taran-pierce-4b6b5721/" target="_blank">LinkedIn</a>
             </p>
@@ -96,6 +98,16 @@
             <p>Project that is in the works using Astro.build so that I can use React and Vue in the same proejct. Why? Cause why not? It calls them "islands" and you can basically end up nesting other frameworks inside of your Astro components. So if you feel like certain frameworks have an edge over others for specific use cases, you can use which ever one you want at will.</p>
             <p>
               <a href="https://photos.taranpierce.com/">Photos</a>
+            </p>
+          </li>
+          <li>
+            <h3>LKDW</h3>
+            <p>Currently a satire E-Commerce Storefront hooked up to a test Stripe account. Still a work in progress with various error states and "non-happy path" messaging, but it does work.</p>
+            <p>Since it is not a real business, I am just leveraging one of the lower tiers of Heroku, so depending on when someone last viewed the site the first load of it may show the spinner for a minute or two. It takes some time for the server to start back up after it has gone to sleep.</p>
+            <p>Once it has started up though, you should be able to create an Account (don't worry, no Credit Card required!), sign in or out, browse the products, add them to your cart and you can even make a test purchase!</p>
+            <p>No matter how many chocolate pies you order ...you won't actually get one! I legit make made those pies though and they are, in fact, delicious.</p>
+            <p>
+              <a href="https://lkdw.vercel.app/" target="_blank">LKDW</a>
             </p>
           </li>
         </ul>

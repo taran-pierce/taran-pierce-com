@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.8] - 2024-03-05
+### Updated
+- Few more content updates and testing out build pipeline
+
 ## [1.0.7] - 2024-03-05
 ### Updated
 - Content updates for the site
