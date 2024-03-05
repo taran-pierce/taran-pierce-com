@@ -1,17 +1,18 @@
 <script setup lang="ts">
   import {
     RouterView,
-  } from 'vue-router'
+  } from 'vue-router';
   import PageLayout from './layouts/PageLayout.vue';
 </script>
 
 <template>
-  <PageLayout />
-  <router-view v-slot="{Component}">
-    <transition name="slide" mode="out-in">
-      <component :is="Component" :key="$route.path"></component>
-    </transition>
-  </router-view>
+  <PageLayout>
+    <router-view v-slot="{Component}">
+      <transition name="slide" mode="out-in">
+        <component :is="Component" :key="$route.path"></component>
+      </transition>
+    </router-view>
+  </PageLayout>
 </template>
 
 <style global lang="scss">
