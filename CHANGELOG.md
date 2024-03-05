@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.7] - 2024-03-05
+### Updated
+- Content updates for the site
+- Updated tests for navigation to be more flexible
+
+### Added
+- Added sitemap.xml
+- Added Footer component
+- Added new favicon
+- Added aria attributes
+
 ## [1.0.6] - 2024-02-29
 ### Updated
 - Update to home page to link to Astro.build site photos.taranpierce.com

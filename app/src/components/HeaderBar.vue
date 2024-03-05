@@ -6,10 +6,13 @@
     data() {
       return {
         isOpen: false,
-        isDesktop: () => {
-          return window && window.innerWidth;
-        },
       }
+    },
+    mounted() {
+      window.addEventListener('resize', this.debounce(this.watchResize));
+    },
+    unmounted() {
+      window.removeEventListener('resize', this.debounce(this.watchResize));
     },
     methods: {
       toggleMenu() {
@@ -18,6 +21,33 @@
       closeMenu() {
         this.isOpen = false;
       },
+      openMenu() {
+        this.isOpen = true;
+      },
+      watchResize() {
+        const isDesktop = this.isDesktop();
+
+        if (isDesktop) {
+          this.openMenu();
+        }
+
+        if (!isDesktop) {
+          this.closeMenu();
+        }
+      },
+      isDesktop() {
+        return window && window.innerWidth >= 992;
+      },
+      debounce(func: any) {
+        let timer: typeof func;
+
+        return function(event: any) {
+          if (timer) {
+            clearTimeout(timer);
+          }
+          timer = setTimeout(func, 100, event);
+        }
+      }
     },
     components:  {
       NavigationMain,
@@ -35,6 +65,10 @@
           type="button"
           @click="toggleMenu"
           class="menu-toggle"
+          aria-haspopup="true"
+          aria-controls="main-nav"
+          :aria-expanded="isOpen"
+          aria-label="Main Navigation Toggle"
         >Menu</button>
       </div>
       <!-- @blah="method" - allows you to pass events up from children -->

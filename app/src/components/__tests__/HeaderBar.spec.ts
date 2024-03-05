@@ -5,6 +5,10 @@ import {
 } from "vitest";
 import { mount } from '@vue/test-utils';
 
+// pull in the main link list from that navigation
+// so it stays in sync
+import { mainLinks } from '../NavigationMain.vue';
+
 import HeaderBar from '../HeaderBar.vue';
 
 const RouterLinkStub = {
@@ -73,7 +77,7 @@ describe('Header', () => {
     expect(element.exists()).toBe(true);
   });
 
-  it('should have three links in the <nav>', () => {
+  it('should have links in the <nav>', () => {
     const wrapper = mount(HeaderBar, {
       global: {
         stubs: {
@@ -86,6 +90,6 @@ describe('Header', () => {
 
     const children = element.findAll('a');
     
-    expect(children.length).toBe(3);
+    expect(children.length).toBe(mainLinks.length);
   });
 });

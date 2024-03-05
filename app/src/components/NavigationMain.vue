@@ -1,5 +1,22 @@
 <script lang="ts">
+  // go ahead and export this in case we put these else where too 
+  export const mainLinks = [
+    {
+      name: 'About',
+      href: '/about/',
+    },
+    {
+      name: 'Projects',
+      href: '/projects/'
+    }
+  ];
+
   export default {
+    data() {
+      return {
+        mainLinks,
+      }
+    },
     methods: {
       closeMenu() {
         this.$emit('closeMenu');
@@ -7,20 +24,29 @@
     },
     props: {
       isOpen: Boolean,
-    }
+    },
   }
 </script>
 
 <template>
-  <nav :class="{ isOpen: isOpen }">
+  <nav
+    :class="{ isOpen: isOpen }"
+    :aria-expanded="isOpen"
+    role="navigation"
+    aria-label="Main Navigation"
+    id="main-nav"
+  >
     <ul>
-      <li>
+      <li
+        v-for="link in mainLinks"
+        :key="link.name"
+      >
         <router-link
-          to="/"
+          :to="link.href"
           @click="closeMenu"
-        >Home</router-link>
+        >{{ link.name }}</router-link>
       </li>
-      <li>
+      <!-- <li>
         <router-link
           to="/about/"
           @click="closeMenu"
@@ -31,7 +57,7 @@
           to="/projects/"
           @click="closeMenu"
         >Projects</router-link>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
