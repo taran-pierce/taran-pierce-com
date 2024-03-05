@@ -38,10 +38,10 @@
       isDesktop() {
         return window && window.innerWidth >= 992;
       },
-      debounce(func) {
-        let timer;
+      debounce(func: any) {
+        let timer: typeof func;
 
-        return function(event) {
+        return function(event: any) {
           if (timer) {
             clearTimeout(timer);
           }
