@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.0.7] - 2024-03-05
 ### Updated
 - Content updates for the site
+- Updated tests for navigation to be more flexible
 
 ### Added
 - Added sitemap.xml

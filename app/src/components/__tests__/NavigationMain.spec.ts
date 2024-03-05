@@ -5,24 +5,16 @@ import {
 } from "vitest";
 import { mount } from '@vue/test-utils';
 
+// pull in the main link list from that navigation
+// so it stays in sync
+import { mainLinks } from '../NavigationMain.vue';
+
 import NavigationMain from '../NavigationMain.vue';
 
 const RouterLinkStub = {
   name: 'RouterLink',
   template: '<a><slot></slot></a>',
 }
-
-const mainLinks = [
-  {
-    name: 'Home',
-  },
-  {
-    name: 'About',
-  },
-  {
-    name: 'Projects',
-  }
-];
 
 describe('NavigationMain', () => {
   it('should contain children', () => {
@@ -43,7 +35,7 @@ describe('NavigationMain', () => {
     }
   });
 
-  it('should contain two links', () => {
+  it('should contain links', () => {
     const wrapper = mount(NavigationMain, {
       global: {
         stubs: {
@@ -54,8 +46,9 @@ describe('NavigationMain', () => {
 
     const elements = wrapper.findAll('a');
 
-    // only have three links for now
-    expect(elements.length).toBe(3);
+    const properItemLength = mainLinks.length;
+
+    expect(elements.length).toBe(properItemLength);
   });
 
   it('should have correct name and href in links', () => {
