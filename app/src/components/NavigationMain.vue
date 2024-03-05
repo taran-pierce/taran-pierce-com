@@ -12,14 +12,14 @@
 </script>
 
 <template>
-  <nav :class="{ isOpen: isOpen }">
+  <nav
+    :class="{ isOpen: isOpen }"
+    :aria-expanded="isOpen"
+    role="navigation"
+    aria-label="Main Navigation"
+    id="main-nav"
+  >
     <ul>
-      <li>
-        <router-link
-          to="/"
-          @click="closeMenu"
-        >Home</router-link>
-      </li>
       <li>
         <router-link
           to="/about/"

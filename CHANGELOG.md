@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Added sitemap.xml
 - Added Footer component
+- Added new favicon
+- Added aria attributes
 
 ## [1.0.6] - 2024-02-29
 ### Updated
