@@ -22,19 +22,19 @@
             <h4>
               <a href="https://vuejs.org/">Vue.js</a>
             </h4>
-            <p>Using Vue to create the frontend. I generally use Next.js, so I wanted to see how making a site in Vue would be.</p>
+            <p>Using Vue to create the frontend. I generally use React with Next.js, so I wanted to see how making a site in Vue would be.</p>
           </li>
           <li>
             <h4>
               <a href="https://github.com/">GitHub</a>
             </h4>
-            <p>Repository in GitHub of course but also using their action workflow with Azure for building and deploying.</p>
+            <p>Repository in GitHub of course but also using their action workflow with Azure.</p>
           </li>
           <li>
             <h4>
               <a href="https://azure.microsoft.com/">Azure</a>
             </h4>
-            <p>Building, deploying and hosting the site on Azure. Straight forward process for setting up static web apps.</p>
+            <p>DNS, building, deploying and hosting the site on Azure. Straight forward process for setting up static web apps.</p>
             <p>I have been really impressed with using Azure so far. Seems a bit easier than using AWS and the preview environments for branches and pull requests rock!</p>
           </li>
           <li>
