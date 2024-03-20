@@ -1,10 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import {
+  createRouter,
+  createWebHistory,
+} from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import ProjectsView from '../views/projects/ProjectsIndexView.vue';
 import CaddoLakeView from '../views/projects/CaddoLakeView.vue';
 import TaranItUpView from '../views/projects/TaranItUpView.vue';
 import TaranPierceView from '../views/projects/TaranPierceView.vue';
+import PhotosViewVue from '../views/projects/PhotosView.vue';
+import LKDWViewVue from '../views/projects/LKDWView.vue';
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,6 +64,24 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       // component: () => import('../views/projects/TaranPierceView.vue')
       component: TaranPierceView,
+    },
+    {
+      path: '/projects/photos',
+      name: '/projects/photos',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      // component: () => import('../views/projects/TaranPierceView.vue')
+      component: PhotosViewVue,
+    },
+    {
+      path: '/projects/lkdw',
+      name: '/projects/lkdw',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      // component: () => import('../views/projects/TaranPierceView.vue')
+      component: LKDWViewVue,
     },
   ]
 })

@@ -34,20 +34,16 @@
             <p>Oh look, you are here! My main website, recently redone in Vue instead of Next. Just a smidge about me and mainly about the work I do with references to other sites I've made or worked on.</p>
           </li>
           <li>
-            <a
-              href="https://photos.taranpierce.com"
-              target="_blank"
-            >Photos</a>
+            <router-link
+              to="/projects/photos"
+            >Photos</router-link>
             <p>I like photography quite a bit and I enjoy taking photos. I have moved off from my hometown and wanted a way to easily share my photos with friends and family but not have to plaster them all over social media.</p>
             <p>Plus it gives me a chance to mess with different technology while putting it together instead of just posting them on FaceBook or something.....twitter......X...what ever on earth its called these days.</p>
           </li>
           <li>
-            <h2>
-              <a
-                href="https://lkdw.vercel.app"
-                target="_blank"
-              >LKDW</a>
-            </h2>
+            <router-link
+              to="/projects/lkdw"
+            >LKDW</router-link>
             <p>Satire e-commerce storefront! Check it out, it ain't real.....yet. Maybe one day though!</p>
             <p>Storefront set up for practicing making the frontend and backend for a ecommerce store. In conjuction with Next.js I am also using Keystone.js with a postgres database.</p>
           </li>
