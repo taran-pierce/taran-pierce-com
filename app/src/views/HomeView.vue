@@ -47,6 +47,14 @@
           'Using this one for the site for sure.',
         ],
         featureList: [],
+      },
+      {
+        name: 'Vercel',
+        contents: [
+          'Ok, I am potentially bias on this one being the best because I already love using Next.js (even though this site is in Vue) but man it sure seems to be the most straight forward to use and feels more capable of getting a working build/pipeline going more quickly and easily.',
+          'I have about three sites hosted using Vercel services and LKDW uses their database as well. They have a pretty generous free tier that you can play with for various things.',
+        ],
+        featureList: [],
       }
     ]
   );
@@ -74,7 +82,6 @@
           <li>
             <h3>LinkedIn</h3>
             <p>If you are interested in finding out anything about my previous work history, feel free to take a look at my LinkedIn profile.</p>
-            <p>FaceBook for work, how lovely, but if you did want to connect and talk about potential business opportunities for either you or me, feel free to hit me up there and we can connect.</p>
             <p>
               <a href="https://www.linkedin.com/in/taran-pierce-4b6b5721/" target="_blank">LinkedIn</a>
             </p>
