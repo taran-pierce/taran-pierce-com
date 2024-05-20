@@ -83,6 +83,11 @@ const router = createRouter({
       // component: () => import('../views/projects/TaranPierceView.vue')
       component: LKDWViewVue,
     },
+    {
+      name: 'NotFound',
+      path: '/:pathMatch(.*)*',
+      redirect: '/',
+    }
   ]
 })
 

@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.14] - 2024-05-20
+### Updated
+- Setup redirect on pages that have no matches
+
+### Added
+- Installed Vuetify to start refactoring components
+
 ## [1.0.13] - 2024-05-17
 ### Updated
 - Updated packages 
