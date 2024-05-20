@@ -1,0 +1,10 @@
+{
+  "navigationFallback": {
+    "rewrite": "/"
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/"
+    }
+  }
+}
