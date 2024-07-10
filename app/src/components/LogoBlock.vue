@@ -20,7 +20,7 @@
 </template>
 
 <style>
-  .logo {
+  /* .logo {
     line-height: 1;
 
     a {
@@ -35,5 +35,5 @@
     .logo {
       line-height: .9;
     }
-  }
+  } */
 </style>

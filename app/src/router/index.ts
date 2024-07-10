@@ -3,6 +3,7 @@ import {
   createWebHistory,
 } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+import HomeV2View from '../views/NewHomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import ProjectsView from '../views/projects/ProjectsIndexView.vue';
 import CaddoLakeView from '../views/projects/CaddoLakeView.vue';
@@ -19,6 +20,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+    },
+    {
+      path: '/v2',
+      name: 'home v2',
+      component: HomeV2View,
     },
     {
       path: '/about',
