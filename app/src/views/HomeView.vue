@@ -67,7 +67,6 @@
         <h1>Taran Pierce's personal website!</h1>
         <h2>Take a look around and thanks for visiting taranpierce.com</h2>
         <p>I'm a software engineer with over 10 years of working experience with a strong foundation in design, excellent communication skills and ability to translate business objectives into high performing solutions.</p>
-        <p>I'll be building this particular website out using Vue because I wanted to get more experience seeing what it is like using Vue compared to React.</p>
         <h2>Online Presence</h2>
         <p>Here are some links to other places online where you can see my work or learn stuff about what I do or what I have done in the past.</p>
         <ul>
