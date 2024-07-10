@@ -16,6 +16,20 @@
         <p>
           <a href="https://lkdw.vercel.app/" target="_blank">LKDW</a>
         </p>
+        <ul>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>SCSS</li>
+          <li>TypeScript</li>
+          <li>GraphQL</li>
+          <li>Stripe</li>
+          <li>ApolloClient</li>
+          <li>Keystone.js</li>
+          <li>PostgreSQL</li>
+          <li>Vercel</li>
+          <li>Heroku</li>
+          <li>AWS S3</li>
+        </ul>
       </ContentContainer>
     </section>
   </main>

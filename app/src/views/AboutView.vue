@@ -20,26 +20,25 @@
         <ul>
           <li>
             <h4>
-              <a href="https://vuejs.org/">Vue.js</a>
+              <a href="https://vuejs.org/" target="_blank">Vue.js</a>
             </h4>
-            <p>Using Vue to create the frontend. I generally use React with Next.js, so I wanted to see how making a site in Vue would be.</p>
+            <p>Using Vue to create the frontend.</p>
           </li>
           <li>
             <h4>
-              <a href="https://github.com/">GitHub</a>
+              <a href="https://github.com/" target="_blank">GitHub</a>
             </h4>
             <p>Repository in GitHub of course but also using their action workflow with Azure.</p>
           </li>
           <li>
             <h4>
-              <a href="https://azure.microsoft.com/">Azure</a>
+              <a href="https://azure.microsoft.com/" target="_blank">Azure</a>
             </h4>
             <p>DNS, building, deploying and hosting the site on Azure. Straight forward process for setting up static web apps.</p>
-            <p>I have been really impressed with using Azure so far. Seems a bit easier than using AWS and the preview environments for branches and pull requests rock!</p>
           </li>
           <li>
             <h4>
-              <a href="https://vitest.dev/">Vitest</a>
+              <a href="https://vitest.dev/" target="_blank">Vitest</a>
             </h4>
             <p>Unit tests are created with Vitest and it seems pretty similar to Jest.</p>
           </li>
